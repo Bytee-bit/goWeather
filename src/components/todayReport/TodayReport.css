@@ -1,0 +1,30 @@
+.today-report{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .time-span{
+    display: flex;
+    column-gap: 2rem;
+    height: 100%;
+    width: 100%;
+  }
+  .time-span div{
+    width: 25%;
+    height: 100%;
+    background-color: cadetblue;
+  }
+  .morning{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  #temp-logo{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: black;
+    border-radius: 50%;
+  }
