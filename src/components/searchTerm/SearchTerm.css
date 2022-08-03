@@ -1,0 +1,25 @@
+.search{
+    width: 48%;
+    height: 2.5rem;
+}
+input{
+    width: 90%;
+    height: 100%;
+    border-radius: .5rem;
+    border: none;
+    font-size: 1.112rem;
+    color: gray;
+    padding-inline: 1rem;
+    
+}
+button{
+    width: 10%;
+    height: 100%;
+    border-radius: .5rem;
+    background-color: rgba(230, 149, 42, 0.752);
+    border-color: rgba(230, 149, 42, 0.752);
+}
+input::placeholder{
+    font-size: 1.112rem;
+    padding-inline: 1rem 0;
+}

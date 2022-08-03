@@ -1,20 +1,24 @@
 import React from "react";
 import './City.css';
 
-export const City = ()=>{
+export const City = ({data})=>{
     return (
         <div className='city-container'>
             <div className='city-name'>
-              <h2>Delhi</h2>
-              <p>IN</p>
+              <h2>{data.name}</h2>
+              <p>{data.sys.country}</p>
             </div>
             <div className='longlati-info'>
-              <div>longitude</div>
-              <div>latitude</div>
+              <div>
+                <p>long {data.coord.lon}</p>
+              </div>
+              <div>
+                <p>lati {data.coord.lat} </p>
+              </div>
             </div>
             <div className='cloudwind-info'>
-              <div>cloud</div>
-              <div>wind</div>
+              <div>☁️  {data.clouds.all}</div>
+              <div>💨  {data.wind.speed} km/h</div>
             </div>
         </div>
     );

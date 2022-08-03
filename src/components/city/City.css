@@ -3,9 +3,9 @@
     flex-direction: column;
     width: 100%;
     height: 30%;
-    border: 1px solid red;
     align-items: center;
     gap: 1rem;
+    color: rgba(230, 149, 42, 0.752);
   }
   .city-name{
     display: flex;
@@ -17,8 +17,8 @@
     gap: 1rem;
   
   }
-  .longlati-info > *{
-    border: 1px solid red;
+  .longlati-info > *, .cloudwind-info > *{
+    box-shadow: 2px 2px 4px black;
     width: 7.5rem;
     height: 3rem;
     padding: .5rem;
@@ -28,13 +28,5 @@
   .cloudwind-info{
     display: flex;
     gap: 1rem;
-  }
-  .cloudwind-info > *{
-    border: 1px solid red;
-    border-radius: .5rem;
-    width: 7.5rem;
-    height: 3rem;
-    padding: .5rem;
-    text-align: center;
   }
   

@@ -7,25 +7,28 @@
     row-gap: 1rem;
   }
   .prediction-card{
+    color: white;
     width: 75%;
     height: 5rem;
-    border: 1px solid red;
+    box-shadow: 2px 2px 4px wheat;
     border-radius: 1rem;
     column-gap: .5rem;
     padding: .5rem;
+    background-color: rgba(230, 149, 42, 0.752);
   }
   .prediction-card > div{
     height: 100%;
     width: 100%;
-    border: 1px solid red;
     display: flex;
     column-gap: .5rem;
   
   }
   .predec-logo{
     aspect-ratio: 1;
-    background-color: black;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .predec-weather{
     display: flex;
